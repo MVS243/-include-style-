@@ -131,6 +131,12 @@ h2{
     color: #df68a2;
 }
 
+.link{
+     color: rgb(142, 0, 59);
+     background-color: transparent;
+     text-decoration: none;
+}
+
 footer{
     position: relative;
     bottom: 0;
