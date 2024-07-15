@@ -84,13 +84,52 @@ body, .frame {
     margin-bottom: 100x;
 }
 
-.frame2{
+.CuratedSec{
     height: 500px;
     width: 1000px;
-    margin-top: 20px;
-    margin-bottom: 100x;    
+    margin-top: 10px;
+    margin-bottom: 10%;
+    margin-left: 10%; 
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
+.shopSec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 25%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    font-size:small;
+}
+
+.boxImg1{
+    height: 300px;
+    width: 210px;
+    background-size: contain;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.boxCont{
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+h2{
+    color: #df68a2;
+}
 
 footer{
     position: relative;
