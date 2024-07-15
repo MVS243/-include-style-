@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>#include_style</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <header>
+        <div class="navbar">
+            <div class="navlogo">
+                <div class="logo"></div>
+            </div>
+            <div class="headerText">
+                <h1>Avatar Dress-up to Visualize Outfits | Myntra HackerRamp'2024</h1>
+            </div>
+        </div>
+    </header>
+    <div class="mainCont">
+        <h2>Instructions: </h2>
+        <ul>
+            <li>Click the 'START' button.</li>
+            <li>Create an avatar and click the "Done" button when you're done customizing.</li>
+            <li>Click on 'Next' to generate shareable link</li>
+        </ul>
+        <input class='button' type="button" value="START" onClick="displayIframe()" />
+    </div>
+    <div class="buttonSec">
+        <iframe id="frame" class="frame" allow="camera *; microphone *; clipboard-write" hidden></iframe>
+    </div>
+    <div class="mainCont">
+        <input class='button' type="button" value="DONE" onClick="window.location.href='page2.html';">
+    </div>
+    <footer>
+        Developed by team: #include&lt;style&gt; | WeforShe 2024
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
